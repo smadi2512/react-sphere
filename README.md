@@ -1,4 +1,4 @@
-# <img src="./frontend/src/assets/logo.png" alt="ReactSphere logo" width="35" align="left"/> React Sphere
+# <img src="./frontend/src/assets/logo.png" alt="ReactSphere logo" width="50" align="center"/> React Sphere
 
 ![React](https://img.shields.io/badge/React-19.2.0-61DAFB?logo=react)
 ![React Router](https://img.shields.io/badge/React_Router-6.30.1-CA4245?logo=react-router)
@@ -10,10 +10,8 @@
 ![Express](https://img.shields.io/badge/Express-4.21.2-000000?logo=express)
 
 
-**ReactSphere** is a modern web application built to explore and manage developer events and meetups.
+**ReactSphere** is a modern web application built to explore and manage developers' events and meetups.
 It provides a smooth experience for **browsing, searching, creating, and managing events**, powered by **React Router**, **TanStack Query**, and **Tailwind CSS** for a fast, modern UI.
-
-Future Improveme
 
 ReactSphere currently focuses on **Events for React developers**, and I'm mainly working to extend my ReactSphere to include various features like: **Courses**, **Blog**, and other Community features to be as a full developer platform.
 
@@ -40,9 +38,7 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 - 🚫**Error Boundaries & Fallbacks** – Graceful recovery via `<ErrorBlock />` for both query and mutation errors.
 
 
-<hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
-
-### 🏗️ Backend
+### Backend
 
 - ⚙️ **Implemented with Node.js + Express (used as a ready backend source)**
 - 🔌 Uses a **prebuilt REST API** for fetching and managing events
@@ -77,7 +73,7 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 - **TailwindCSS** for styling and responsive design
 - **Vite** for development and build
 
-<hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
+
 
 ### 🏗️ Architecture
 
@@ -85,16 +81,15 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 - **Separation of Concerns** - Clear boundaries between UI, state, and data layers
 - **Component Reusability** - Shared UI components like: `<ErrorBlock />`, `<LoadingIndicator />` ... , and shared layout `<RootLaout />`, `<Header />`, and `<Footer />`
 
-<hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
+
 
 ### ⚡Advanced Features & Patterns
 
-### 🧭 Controlled & Uncontrolled Modal Pattern
+#### 🧭 Controlled & Uncontrolled Modal Pattern
 
 ReactSphere’s `Modal` component implements **both controlled and uncontrolled behaviors**, supports **controlled mode** via the `open` prop and **uncontrolled mode** via ref methods: `open()`, `close()`, and can be used flexibly depending on how the parent component manages state
 
-#### 🧩 Controlled Mode:
-  In this mode, the parent explicitly manages the modal’s open/close state:
+**🧩 Controlled Mode**: In this mode, the parent explicitly manages the modal’s open/close state:
   ```jsx
   <Modal open={isModalOpen}>
     <Form />
@@ -102,8 +97,7 @@ ReactSphere’s `Modal` component implements **both controlled and uncontrolled 
   ```
   Internally, the `useEffect` hook listens to changes in the `open` prop and updates the native `<dialog>` accordingly.
 
-#### 🔄 Uncontrolled Mode:
-  In this mode, the parent accesses modal control methods through a ref:
+**🔄 Uncontrolled Mode**: In this mode, the parent accesses modal control methods through a ref:
   ```jsx
   const modalRef = useRef();
 
@@ -115,16 +109,14 @@ ReactSphere’s `Modal` component implements **both controlled and uncontrolled 
   ```
   This is enabled via `useImperativeHandle`, exposing the `open()` and `close()` methods for flexible usage.
 
-<hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
 
-### ⚡ Optimistic UI Updates (Edit Event Page)
+#### ⚡ Optimistic UI Updates (Edit Event Page)
 
 ReactSphere also implements **optimistic updates** with Tanstack Query — a powerful UX enhancement that immediately reflects user actions while the server request is still pending.
 
-  #### 🧠 How It Works
+  **🧠 How It Works?**
 
   When editing an event, the app:
-
   1. Instantly updates the local cache to reflect the edited event (`onMutate`)
   2. Cancels any outgoing queries for that event (`cancelQueries`)
   3. Rolls back to the previous state if the update fails (`onError`)
@@ -155,12 +147,11 @@ ReactSphere also implements **optimistic updates** with Tanstack Query — a pow
 
 <hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
 
-### 🔍 Smart Event Search (Dynamic Query with React Query)
+#### 🔍 Smart Event Search (Dynamic Query with React Query)
 
 ReactSphere includes a **real-time search feature** that allows users to find events dynamically based on title, location, or description.
 
-  #### ⚙️ Implementation Details
-
+  **⚙️ Implementation Details:**
   - Uses **React Query’s dynamic keys** (`["events", { search: searchTerm }]`) to re-fetch automatically when the search term changes.
   - Enables conditional fetching with the `enabled` option — only queries when a term is entered.
   - Supports optional query parameters (`search`, `max`) to limit results or refine filtering from the backend.
@@ -175,7 +166,6 @@ ReactSphere includes a **real-time search feature** that allows users to find ev
   });
 
   ```
-<hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
 
 ### 🛠️ Backend
 
