@@ -1,0 +1,92 @@
+[
+  {
+    "id": "r1",
+    "title": "React 19 Launch Party & Live Coding!",
+    "description": "Celebrate the release of React 19 with fellow developers! Live demos of new features, Server Components, and React Compiler walkthroughs.",
+    "date": "2025-03-15",
+    "time": "17:00",
+    "location": "Tech Innovation Hub, San Francisco, CA",
+    "image": "react19-launch.png"
+  },
+  {
+    "id": "r2",
+    "title": "Mastering React Query & Data Fetching Patterns",
+    "description": "Hands-on workshop focusing on TanStack Query, Suspense integration, and React Router Data APIs. Learn how to build data-driven React apps efficiently.",
+    "date": "2025-04-22",
+    "time": "10:30",
+    "location": "Frontend Academy, Austin, TX",
+    "image": "data-fetching-workshop.png"
+  },
+  {
+    "id": "r3",
+    "title": "React + TypeScript Best Practices Summit",
+    "description": "A deep-dive meetup exploring patterns, generics, and scalable architecture for enterprise React applications using TypeScript.",
+    "date": "2025-05-12",
+    "time": "09:00",
+    "location": "NextWave Conference Center, London, UK",
+    "image": "react-typescript-summit.png"
+  },
+  {
+    "id": "r4",
+    "title": "Next.js & App Router Workshop",
+    "description": "Interactive coding session teaching the new Next.js App Router concepts, server actions, and data fetching optimization with React 19.",
+    "date": "2025-06-05",
+    "time": "14:00",
+    "location": "DevSpaces HQ, Berlin, Germany",
+    "image": "nextjs-app-router.png"
+  },
+  {
+    "id": "r5",
+    "title": "React Performance Optimization Bootcamp",
+    "description": "Learn advanced performance tuning: React.memo, useCallback, virtualization, and lazy loading for high-performing React apps.",
+    "date": "2025-07-09",
+    "time": "11:00",
+    "location": "Code Arena, Toronto, Canada",
+    "image": "performance-bootcamp.png"
+  },
+  {
+    "id": "r6",
+    "title": "Women in React - Global Meetup",
+    "description": "A welcoming space celebrating women in the React ecosystem. Talks, networking, and mentorship opportunities for all experience levels.",
+    "date": "2025-08-18",
+    "time": "16:00",
+    "location": "EmpowerTech Hall, Seattle, WA",
+    "image": "women-in-react.jpeg"
+  },
+  {
+    "id": "r7",
+    "title": "React State Management Showdown",
+    "description": "Redux Toolkit vs Zustand vs Jotai - live coding comparisons and discussions on which pattern best fits your app architecture.",
+    "date": "2025-09-10",
+    "time": "13:30",
+    "location": "Modern JS Center, New York, NY",
+    "image": "state-management-showdown.png"
+  },
+  {
+    "id": "r8",
+    "title": "React Architecture & Patterns Conference",
+    "description": "A full-day event covering compound components, render props, context with reducers, and modern React design systems.",
+    "date": "2025-10-03",
+    "time": "09:30",
+    "location": "Frontend Masters Hall, Sydney, AU",
+    "image": "react-patterns-conf.jpg"
+  },
+  {
+    "id": "r9",
+    "title": "Building Scalable UI Systems with Tailwind + React",
+    "description": "Hands-on design system workshop where you'll create a fully responsive React component library powered by TailwindCSS.",
+    "date": "2025-11-14",
+    "time": "10:00",
+    "location": "Creative Labs, Dubai, UAE",
+    "image": "react-tailwind-workshop.png"
+  },
+  {
+    "id": "r10",
+    "title": "ReactSphere Year-End Hackathon",
+    "description": "Join the ultimate ReactSphere hackathon! Teams build open-source tools or creative apps using React, Next.js, and Vite.",
+    "date": "2025-12-19",
+    "time": "08:00",
+    "location": "Global (Online + Hybrid)",
+    "image": "reactsphere-hackathon.png"
+  }
+]

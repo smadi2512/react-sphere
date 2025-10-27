@@ -1,0 +1,42 @@
+[
+  {
+    "path": "react19-launch.png",
+    "caption": "React19 Launch"
+  },
+  {
+    "path": "data-fetching-workshop.png",
+    "caption": "Mastering React Query: fetching, caching like a pro"
+  },
+  {
+    "path": "react-typescript-summit.png",
+    "caption": "Effective TypeScript for React Apps"
+  },
+  {
+    "path": "nextjs-app-router.png",
+    "caption": "NextJS with App Router features"
+  },
+  {
+    "path": "performance-bootcamp.png",
+    "caption": "React Performance Optimization Bootcamp"
+  },
+  {
+    "path": "women-in-react.jpeg",
+    "caption": "Women in React - Global Meetup"
+  },
+  {
+    "path": "state-management-showdown.png",
+    "caption": "React State Management Showdown"
+  },
+  {
+    "path": "react-patterns-conf.jpg",
+    "caption": "React Architecture & Patterns Conference"
+  },
+  {
+    "path": "react-tailwind-workshop.png",
+    "caption": "Building Scalable UI Systems with Tailwind + React"
+  },
+  {
+    "path": "reactsphere-hackathon.png",
+    "caption": "ReactSphere Year-End Hackathon"
+  }
+]

@@ -1,0 +1,35 @@
+@import "tailwindcss";
+@theme {
+  --color-sphere-deep-space: #0f172a;
+  --color-sphere-electric-blue: #3b82f6;
+  --color-sphere-neon-cyan: #06b6d4;
+  --color-sphere-cosmic-purple: #8b5cf6;
+  --color-sphere-mist: #f8fafc;
+  --color-sphere-silver: #94a3b8;
+  --color-sphere-graphite: #475569;
+
+  --animate-sphere-pulse: spherePulse 0.3s ease;
+  --animate-glow: glow 2s infinite;
+
+  @keyframes spherePulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+
+  @keyframes glow {
+    0%, 100% { box-shadow: 0 0 20px rgba(59, 130, 246, 0.5); }
+    50% { box-shadow: 0 0 30px rgba(59, 130, 246, 0.8); }
+  }
+}
+
+.container-section {
+  @apply container mx-auto px-4 sm:px-6;
+}
+
+.full-width-section {
+  @apply w-full;
+}
+
+.section-inner {
+  @apply w-full max-w-7xl mx-auto px-4 sm:px-6;
+}
