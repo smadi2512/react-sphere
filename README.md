@@ -37,6 +37,7 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 - ⏳**Global Loading Indicator** – Powered by `useIsFetching` and a reusable `<LoadingIndicator />` for unified UX.
 - 🚫**Error Boundaries & Fallbacks** – Graceful recovery via `<ErrorBlock />` for both query and mutation errors.
 
+<br>
 
 ### Backend
 
@@ -73,6 +74,7 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 - **TailwindCSS** for styling and responsive design
 - **Vite** for development and build
 
+<br>
 
 
 ### 🏗️ Architecture
@@ -81,11 +83,11 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 - **Separation of Concerns** - Clear boundaries between UI, state, and data layers
 - **Component Reusability** - Shared UI components like: `<ErrorBlock />`, `<LoadingIndicator />` ... , and shared layout `<RootLaout />`, `<Header />`, and `<Footer />`
 
-
+<br>
 
 ### ⚡Advanced Features & Patterns
 
-#### 🧭 Controlled & Uncontrolled Modal Pattern
+#### 🧭 1. Controlled & Uncontrolled Modal Pattern
 
 ReactSphere’s `Modal` component implements **both controlled and uncontrolled behaviors**, supports **controlled mode** via the `open` prop and **uncontrolled mode** via ref methods: `open()`, `close()`, and can be used flexibly depending on how the parent component manages state
 
@@ -109,8 +111,9 @@ ReactSphere’s `Modal` component implements **both controlled and uncontrolled 
   ```
   This is enabled via `useImperativeHandle`, exposing the `open()` and `close()` methods for flexible usage.
 
+<br>
 
-#### ⚡ Optimistic UI Updates (Edit Event Page)
+#### ⚡2. Optimistic UI Updates (Edit Event Page)
 
 ReactSphere also implements **optimistic updates** with Tanstack Query — a powerful UX enhancement that immediately reflects user actions while the server request is still pending.
 
@@ -144,10 +147,9 @@ ReactSphere also implements **optimistic updates** with Tanstack Query — a pow
   ```
   🪄 **Result**: Immediate UI updates → rollback on failure → auto-refresh on success.
 
+<br>
 
-<hr style="border: 1px solid #ccc; margin: 20px auto; width: 90%;" />
-
-#### 🔍 Smart Event Search (Dynamic Query with React Query)
+#### 🔍 3. Smart Event Search (Dynamic Query with React Query)
 
 ReactSphere includes a **real-time search feature** that allows users to find events dynamically based on title, location, or description.
 
@@ -166,6 +168,7 @@ ReactSphere includes a **real-time search feature** that allows users to find ev
   });
 
   ```
+<br>
 
 ### 🛠️ Backend
 
@@ -306,7 +309,7 @@ Planned enhancements and upcoming features to make ReactSphere more powerful, dy
 - 🌗 Add **dark mode** and UI transitions
 - 🧾 Connect to a **real database** backend API instead of JSON storage
 - 🧠 **TypeScript Migration** - Full type safety implementation
-- 📅 **Calendar View** - Visual event scheduling with an interactive calendar interface.
+- 📅 **Calendar View** - Visual event scheduling with an interactive calendar interface.
 - 📢 **Social Features** - Event sharing, invites, and user interactions
 - 📧 **Email Notifications** - Event reminders and updates
 - ⚡ **Real-time Features** - WebSocket integration for live updates
