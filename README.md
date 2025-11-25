@@ -10,12 +10,9 @@
 ![Express](https://img.shields.io/badge/Express-4.21.2-000000?logo=express)
 
 
-**ReactSphere** is a modern web application built to explore and manage developers' events and meetups.
-It provides a smooth experience for **browsing, searching, creating, and managing events**, powered by **React Router**, **TanStack Query**, and **Tailwind CSS** for a fast & modern UI.
+**ReactSphere** is a modern web application built to explore and manage developers' events and meetups. It provides a smooth experience for **browsing, searching, creating, and managing events**, powered by **React Router**, **TanStack Query**, and **Tailwind CSS** for a fast & modern UI.
 
-ReactSphere currently focuses on **Events for React developers**, and I'm mainly working to extend my ReactSphere to include various features like: **Courses**, **Blog**, and other Community features to be as a full developer platform.
-
-I developed a **modular, scalable architecture** that can be easily extended with authentication, pagination, or other ecosystem features.
+ReactSphere currently focuses on **Events for React developers**, and I'm mainly working to extend it into a full developer platform with **Courses, Blog, and Community features**. I developed a **modular, scalable architecture** that can be easily extended with authentication, pagination, and other ecosystem features.
 
 ---
 
@@ -25,7 +22,7 @@ I developed a **modular, scalable architecture** that can be easily extended wit
 #### **🎯Core Functionality**
 - **Event Management** – Create, edit, delete, and browse events with full CRUD operations.
 - **Dynamic Routing** – Implemented using **React Router** with loaders & actions.
-- **Advanced Search** – Real-time filtering by title, location & description
+- **Advanced Search** – Real-time filtering for events by title, location & description
 - **Interactive Image Picker** with preview before submission.
 - **Fully responsive UI** using **TailwindCSS**.
 
@@ -297,21 +294,29 @@ npm start
 
 Planned enhancements and upcoming features to make ReactSphere more powerful, dynamic, and user-friendly 🔮
 
-- 🗂️ **File Upload** - Dynamic image upload with preview & drag-and-drop instead of pre-defined images
-- 🔐 **User authentication** and role-based access (Admin, Organizer, Attendee)
-- 🏷️ **Event Categories** - Classify events by type (Workshops, Meetups, Talks) for better organization and discovery.
-- 📝 **Comments and reviews** on events
-- 🌍 **Pagination and filtering**
-- 🧑‍🤝‍🧑 **Community section** - (Discussions, Blog, Courses) to expand into a full developer hub.
-- 🔄 Add **debounced search input** for smoother UX
-- 🌗 Add **dark mode** and UI transitions
-- 🧾 Connect to a **real database** backend API instead of JSON storage
-- 🧠 **TypeScript Migration** - Full type safety implementation
-- 📅 **Calendar View** - Visual event scheduling with an interactive calendar interface.
-- 📢 **Social Features** - Event sharing, invites, and user interactions
-- 📧 **Email Notifications** - Event reminders and updates
-- ⚡ **Real-time Features** - WebSocket integration for live updates
+### 🟢 High Priority
+- **File Upload System** – Dynamic image upload with drag-and-drop and preview.
+- **Authentication System** – User registration/login with role-based access (Admin, Organizer, Attendee)
+- **Event Categories** – Organize events by type (Workshops, Meetups, Conferences).
+- **Comments System** – User reviews and discussions on events.
 
+### 🟡 Medium Priority
+- **Pagination & Filtering** – Improved event discovery and navigation.
+- **Calendar Integration** – Visual event scheduling and interactive calendar.
+- **Database Migration** – Replace JSON with PostgreSQL/MongoDB.
+- **Debounced Search** – Smoother search with reduced API calls.
+
+### 🔵 Enhancement Features
+- **Dark Mode** – Theme switching capability for better UX.
+- **TypeScript Migration** – Full type safety across frontend part.
+- **Email Notifications** – Event reminders and updates.
+- **Real-time Features** – WebSocket integration for live updates.
+
+### 🟣 Community Expansion
+- **User Profiles** – Developer portfolios and social features.
+- **Learning Resources** – Courses, tutorials, and educational content.
+- **Discussion Forums** – Community engagement and collaboration.
+- **Job Board** – Career opportunities for developers.
 
 ---
 
